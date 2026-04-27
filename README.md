@@ -137,7 +137,7 @@ This bank statement analysis provided insights the inflow, Outflow which helped 
 - **Top Credit Amount-** *2.02M*
 - **Lowest Debit Weekday-** *Friday*
 - **Lowest Credit Weekday-** *Tuesday*
-- The originating branch is *635 Akin Adesola.
+- The originating branch is **635 Akin Adesola**.
 
 # Overall Insights
 - Total inflow **(5.63M)** is almost equal to total outflow **(5.58M)**.
