@@ -62,12 +62,22 @@ To ensure accuracy, the dataset underwent a series of **cleaning and transformat
 
  **Fields**
  - Total Transaction.    - Selected Day         - Average Balance
- - Total Inflow          - Selected Weekday     - Closing Balance
- - Total Outflow         - Payment Type         - Highest Credit
- - Top Debit Amount      - Opening Balance      - Highest Debit
- - Top Debit Weekday     - Net Movement         - Interactive Title
- - Top Credit Amount     - Net Flow             - Top Credit Weekday
-
+ - Total Inflow                
+ - Total Outflow                
+ - Top Debit Amount             
+ - Top Debit Weekday              
+ - Top Credit Amount                  
+ - Top Credit Weekday
+ - Selected Weekday
+ - Closing Balance
+ - Payment Type
+ - Opening Balance
+ - Net Movement
+ - Net Flow
+ - Highest Credit
+ - Highest Debit
+ - Interactive Title
+   
   **Purpose**
   To analyze bank statement data in order to track cash flow, understand spending patterns, detect transaction trends, and support better financial planning and decision-making.
 
@@ -81,9 +91,81 @@ The dashboard is structured into a page,which focuses on Total transactions, Tot
 <img width="894" height="505" alt="Bank Statement" src="https://github.com/user-attachments/assets/ce691c04-fe4a-4d96-8427-5c45dbdc85e7" />
 
 # Key Metrics( Top of the page): Total Transations, Total Inflow, Total Outflow, Average balance, Highest Credit.
+- **Dynamic Title:** is a title that changes automatically based on data or filters applied.
+- **Total Transations:** The total number of all money activities (credits and debits) in the account within the month July.
+- **Total Inflow:** The total amount of money received into the account.
+- **Total Outflow:** The total amount of money sent out or spent from the account.
+- **Average balance:** The average amount of money in the account over the period in July.
+- **Highest Credit:** The single largest amount of money received in one transaction.
 
-- *Total Transations:*
-- Total Inflow:
-- Total Outflow:
-- Average balance:
-- Highest Credit:
+This KPIs helps  understand spending patterns, detect transaction trends, and support better financial planning and decision-making.
+
+-------
+
+## Visuals
+-**Total Inflow and Total Outflow (Pie Chart):** It represents the distribution of Inflow and Outflow of cash in percentage making it easy to identify.
+-**Debit by Day of the week (Column Chart):** It represents the amount debited for each weekday.
+-**Credit by Day of the week (Column Chart):** It represents the amount credited for each day of the week.
+-**Debit by Payment type (Column Chart):** It represent the type of payment in which money is debited for.
+-**Debit and Credit by day (Line Chart):** It represent the credit and debit for the duration of the month in days.
+
+## Slicers: Transaction date and Day of the week.
+
+The dashboard includes Transaction date and Day of the week which would help identify transactions easily for a specific period of time.
+
+This interactve fliters ensures the Title ,KPIs, charts and visuals adapts instantly which gives easy access to identify specific dates.
+
+# Key Analysis Findings
+
+This bank statement analysis provided insights the inflow, Outflow which helped to understand spending patterns and detect transaction trends.
+
+- **Total Transactions-** *86*
+- **Total Inflow-** *5.63M*
+- **total Outflow-** *5.58M*
+- **Netflow-** *54.14K*
+- **Highest Credit-** *1.44M*
+- **Highest Debit-** *1.00M*
+- **Opening Balance-** *740.15K*
+- **Closing Balance-** *1.29M*
+- **Net Movement-** *554.29K*
+- **Average Balance-** *968.74K*
+- **Top Debit Weekday-** *Monday*
+- **Top Credit Weekday-** *Thursday*
+- **Top Debit Amount-** *1.94M*
+- **Top Credit Amount-** *2.02M*
+- **Lowest Debit Weekday-** *Friday*
+- **Lowest Credit Weekday-** *Tuesday*
+- The originating branch is *635 Akin Adesola.
+
+# Overall Insights
+- Total inflow **(5.63M)** is almost equal to total outflow **(5.58M)**.
+- The pie chart confirms a near **50/50** split, meaning the account is **financially stable but not strongly accumulating cash**.
+- The difference between inflow and outflow is very small, showing minimal profit/retention **(low netflow)**.
+- **86** transactions indicate consistent account usage and active financial movement.
+- Debit peaks on Monday **(1.94M)** → likely operational or start-of-week spending.
+- Credit peaks on Thursday **(2.02M)** → strongest inflow day, possibly settlements or business payments.
+- Lowest activity days: Tuesday **(credit)** and Friday **(debit)**, showing uneven mid-week activity flow.
+- Debits are mainly driven by:
+    - **TRA (3.1M) and NIB (2.5M)** → major contributors to outflow.
+- Other channels (AIR, ELE, VAT, etc.) are almost negligible.
+- Average balance **(968.74K)** shows the account maintains a mid-level liquidity buffer without major spikes or drops.
+- The line chart shows irregular spikes in both debit and credit, suggesting:
+     - Non-daily bulk transactions
+     - Periodic business inflows/outflows rather than steady daily flow.
+       
+ # Recomendations 
+
+  Based on the analysis, the following recommendations can help improve spending patterns:
+  
+- Since inflow ≈ outflow, focus on **increasing revenue streams or reducing high-cost debits (TRA, NIB)**.
+- Strengthen financial activity around **Thursdays (best credit day)** for collections or settlements.
+- Investigate **TRA and NIB payments**, as they account for most outflows.
+- Consider optimizing or negotiating recurring charges.
+- Smooth out irregular spikes by **spreading payments more evenly across the week**.
+- Encourage inflows on **Tuesdays and Fridays** to avoid weak cash days.
+
+# Limitations
+
+- The analysis is limited to July, so seasonal or long-term trends cannot be confirmed.
+- There is no reference to other months or branches for performance comparison.
+ 
