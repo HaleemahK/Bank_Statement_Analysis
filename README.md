@@ -30,17 +30,17 @@ This project addresses these challenges by transforming one month's bank stateme
 
 This dataset contains **86 Transations** it captured detailed informations like Transaction date, Value date, Debit, Credit, Balance, Originating Branch and Remarks.
 
--**Transaction date** - The date the transaction was initiated. 
--**Value date** - The date the transaction takes effecton the account balance.
--**Debit** - Money taken out of the account.
--**Credit** - Money paid into the account. 
--**Balance** - The ammount of money in the account after a transaction.
--**Originating Branch** - The bank branch where the transaction was processed.
--**Remarks** - A brief description or narration of the transaction.
--**Net Transaction** - The difference between total credits and total debits.
--**Day of the week** - The weekday the transaction occurred.
--**Week Number** - The specific week of the month or year in which the transaction occured.
--**Payment Type** - The method used for the transaction, such as transfer, ATM withdrawal, POS, or deposit.
+- **Transaction date** - The date the transaction was initiated. 
+- **Value date** - The date the transaction takes effecton the account balance.
+- **Debit** - Money taken out of the account.
+- **Credit** - Money paid into the account. 
+- **Balance** - The ammount of money in the account after a transaction.
+- **Originating Branch** - The bank branch where the transaction was processed.
+- **Remarks** - A brief description or narration of the transaction.
+- **Net Transaction** - The difference between total credits and total debits.
+- **Day of the week** - The weekday the transaction occurred.
+- **Week Number** - The specific week of the month or year in which the transaction occured.
+- **Payment Type** - The method used for the transaction, such as transfer, ATM withdrawal, POS, or deposit.
 
 # Data Preparation
 To ensure accuracy, the dataset underwent a series of **cleaning and transformation steps** before analysis.This process was taken into **Excel** and **PowerBI** focusing on recovering inconsistencies, deriving new fields and preparing the data for visualization.
@@ -61,7 +61,7 @@ To ensure accuracy, the dataset underwent a series of **cleaning and transformat
  Contains calculated measures created using **DAX function** in **PowerBI** to define key KPIs and evaluate the transactions for the month. These measures form the backbone of the dashboard, providing insights to the Inflow and Outflow of money.
 
  **Fields**
- - Total Transaction.    - Selected Day         - Average Balance
+ - Total Transaction.           
  - Total Inflow                
  - Total Outflow                
  - Top Debit Amount             
@@ -77,6 +77,8 @@ To ensure accuracy, the dataset underwent a series of **cleaning and transformat
  - Highest Credit
  - Highest Debit
  - Interactive Title
+ - Selected Day
+ - Average Balance
    
   **Purpose**
   To analyze bank statement data in order to track cash flow, understand spending patterns, detect transaction trends, and support better financial planning and decision-making.
@@ -103,11 +105,11 @@ This KPIs helps  understand spending patterns, detect transaction trends, and su
 -------
 
 ## Visuals
--**Total Inflow and Total Outflow (Pie Chart):** It represents the distribution of Inflow and Outflow of cash in percentage making it easy to identify.
--**Debit by Day of the week (Column Chart):** It represents the amount debited for each weekday.
--**Credit by Day of the week (Column Chart):** It represents the amount credited for each day of the week.
--**Debit by Payment type (Column Chart):** It represent the type of payment in which money is debited for.
--**Debit and Credit by day (Line Chart):** It represent the credit and debit for the duration of the month in days.
+- **Total Inflow and Total Outflow (Pie Chart):** It represents the distribution of Inflow and Outflow of cash in percentage making it easy to identify.
+- **Debit by Day of the week (Column Chart):** It represents the amount debited for each weekday.
+- **Credit by Day of the week (Column Chart):** It represents the amount credited for each day of the week.
+- **Debit by Payment type (Column Chart):** It represent the type of payment in which money is debited for.
+- **Debit and Credit by day (Line Chart):** It represent the credit and debit for the duration of the month in days.
 
 ## Slicers: Transaction date and Day of the week.
 
