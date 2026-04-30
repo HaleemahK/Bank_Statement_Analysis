@@ -93,7 +93,7 @@ The dashboard is structured into a page,which focuses on Total transactions, Tot
 <img width="894" height="505" alt="Bank Statement" src="https://github.com/user-attachments/assets/ce691c04-fe4a-4d96-8427-5c45dbdc85e7" />
 
 # Key Metrics( Top of the page): Total Transations, Total Inflow, Total Outflow, Average balance, Highest Credit.
-- **Dynamic Title:** is a title that changes automatically based on data or filters applied.
+- **Dynamic Title:** This helps the title to change automatically based on the fliter applied.
 - **Total Transations:** The total number of all money activities (credits and debits) in the account within the month July.
 - **Total Inflow:** The total amount of money received into the account.
 - **Total Outflow:** The total amount of money sent out or spent from the account.
